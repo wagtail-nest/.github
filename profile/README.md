@@ -13,16 +13,14 @@ By moving the package to Wagtail Nest, the current maintainer (or original autho
 
 - Be nice
 - The primary goal is maintenance. New features are a nice to have
-- Release often, every time updates are done.
-- Use [SemVer](https://semver.org/). If there are breaking changes, bump the major version.
-- Test against Wagtail main, [nightly](https://github.com/wagtail/wagtail/wiki/Nightly-testing-of-official-plugins).
+- Release often, every time updates are done
+- Use [SemVer](https://semver.org/). If there are breaking changes, bump the major version
+- Test against the Wagtail `main` branch, [nightly](https://github.com/wagtail/wagtail/wiki/Nightly-testing-of-official-plugins)
 - Automate the release process
-- Keep project in sync with the Cookiecutter project template
+- Keep project in sync with the [Cookiecutter project template](https://github.com/wagtail/cookiecutter-wagtail-package)
 - Get wider consensus for new features, and consider a major release for them
-- Have your code peer reviewed before merging to `main`
+- Have your code peer reviewed before merging to the `main` branch
 - Follow the [Python package maintenance guidelines](https://github.com/wagtail/wagtail/wiki/Python-Package-Maintenance-Guidelines)
-
-
 
 
 ## FAQ
@@ -33,7 +31,7 @@ By moving the package to Wagtail Nest, the current maintainer (or original autho
     Maintenance takes precedence over active development.
     
 *   What is the deprecation process?
-    Deprecated packages are moved to https://github.com/orgs/wagtail-nest-deprecated.
+    Deprecated packages are moved to https://github.com/wagtail-nest-deprecated.
     The README will start with a clear deprecation warning. With that, the package will no longer be maintained, but existing releases will continue to be available on PyPI. We will not remove releases.
     
     Deprecation will happen via maintainer and community consensus when:
@@ -49,9 +47,9 @@ By moving the package to Wagtail Nest, the current maintainer (or original autho
             
     We trust the original author. 
     We trust the selected companies.
-    You can become a individual member by:
+    You can become an individual member by:
     *   Being a regular contributor
-    *   By being invited by existing maintainers
+    *   Being invited by existing maintainers
     
     In the case of an incident, 3 existing members must approve to revoke a membership.
     
