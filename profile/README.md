@@ -35,7 +35,7 @@ By moving the package to Wagtail Nest, the current maintainer (or original autho
     The README will start with a clear deprecation warning. With that, the package will no longer be maintained, but existing releases will continue to be available on PyPI. We will not remove releases.
     
     Deprecation will happen via maintainer and community consensus when:
-    * there is a newer package that does it better. 
+    * There is a newer package that does it better. 
     * Wagtail core gets the functionality. 
     * The package is no longer needed or used.
 
